@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+  position: relative;
+}
+.nav-item:hover {
+  border-bottom: 3px white solid;
+  transition: 1.2s;
+}
+.logo {
+  width: 80px;
+}
+.content {
+  height: 70vh;
+}
+.title {
+  margin-top: 120px;
+  color: white;
+  font-size: 160px;
+  font-style: italic;
+  transition: 1.3s;
+}
+.title:hover {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+}
+.a {
+  display: inline-block;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.a:hover {
+  background-color: transparent;
+  transform: scale(1.1);
+}
+.bgvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  position: left left;
+  height: 100vh;
+  background-attachment: fixed;
+}
+#About-Us .container-fluid {
+  background-image: url(./images/lamborghiniaboutus2.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  background-attachment: fixed;
+}
+.Automobili {
+  font-size: 30px;
+  padding-left: 200px;
+}
+.About {
+  font-size: 74px;
+  font-weight: bold;
+  padding-left: 190px;
+}
+.buttonaboutus {
+  margin-left: 200px;
+}
+.rightcolwithwords {
+  padding-top: 200px;
+}
+.factorypic1 {
+  height: 50vh;
+  clip-path: polygon(67% 0, 100% 0%, 100% 100%, 0 100%);
+  background: fixed;
+}
+.factorypic2 {
+  padding-top: 10px;
+  height: 60vh;
+  width: 100%;
+  clip-path: polygon(100% 0, 100% 61%, 86% 100%, 0 99%, 46% 0);
+}
+.factorypic3 {
+  padding-top: 10px;
+  height: 60vh;
+  width: 100%;
+  clip-path: polygon(35% 0, 100% 0, 85% 48%, 69% 100%, 0 100%, 0 87%);
+}
+.factorypic4 {
+  padding-top: 10px;
+  height: 50vh;
+  width: 100%;
+  clip-path: polygon(0 0, 69% 0, 54% 56%, 41% 100%, 0 100%, 0% 50%);
+}
+.contentaboutus {
+  padding-top: 350px;
+}
+#Models .intro {
+  background-image: url(./images/model4.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  background-attachment: fixed;
+}
+.latest1 {
+  font-size: 70px;
+  font-weight: 200;
+}
+.latest {
+  font-size: 100px;
+  font-weight: 300;
+}
+
+.firstmodel {
+  background-image: url(./images/model1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Reveulto {
+  font-style: italic;
+  font-size: 100px;
+  font-weight: 160;
+}
+.button {
+  padding: 10px 50px;
+  border: 2px solid white;
+  border-radius: 100px;
+  transition: 1.2s;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+.secondmodel {
+  background-image: url(./images/model2.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.thirdmodel {
+  background-image: url(./images/mode3.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#museum-intro .container-fluid {
+  background-image: url(./images/museumpic1.png);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Museum .container-fluid {
+  background-color: whitesmoke;
+}
+.firstevermodel {
+  text-align: right;
+}
+.Firstmodel350 {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.firstevermodel2 {
+  text-align: left;
+}
+.Firstmodel351 {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+.lasttext {
+  font-weight: 200;
+}
+.oldestmodel {
+  position: absolute;
+  top: 945%;
+  left: 35%;
+  z-index: 9;
+}
+@media (max-width: 768px) {
+  #About-Us .container-fluid {
+    width: auto;
+    height: 100%;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .Automobili {
+    font-size: 30px;
+    padding-left: 0px;
+  }
+  .About {
+    font-size: 74px;
+    font-weight: bold;
+    padding-left: 0px;
+  }
+  .buttonaboutus {
+    margin-left: 200px;
+  }
+  .firstrowfactory {
+    flex-direction: column-reverse;
+  }
+  .factorypic2 {
+    display: none;
+  }
+  .factorypic1 {
+    clip-path: none;
+  }
+  .factorypic3 {
+    display: none;
+  }
+  .factorypic4 {
+    clip-path: none;
+  }
+  .rightcolwithwords {
+    padding-top: 10px;
+  }
+  .contentaboutus {
+    padding-top: 10px;
+  }
+  .oldestmodel {
+    display: none;
+  }
+  .lastresponsive {
+    flex-direction: column-reverse;
+  }
+  .Firstmodel350 {
+    clip-path: none;
+  }
+  .Firstmodel351 {
+    clip-path: none;
+  }
+  .firstevermodel {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .firstevermodel2 {
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .title {
+    font-size: 70px;
+  }
+  .firstrowfactory {
+    flex-direction: column-reverse;
+  }
+  .factorypic2 {
+    clip-path: none;
+  }
+  .factorypic1 {
+    display: none;
+  }
+  .rightcolwithwords {
+    padding-top: 10px;
+  }
+  .factorypic3 {
+    clip-path: none;
+  }
+  .factorypic4 {
+    display: none;
+  }
+  .contentaboutus {
+    padding-top: 20px;
+  }
+  .oldestmodel {
+    display: none;
+  }
+  .lastresponsive {
+    flex-direction: column-reverse;
+  }
+  .Firstmodel350 {
+    clip-path: none;
+  }
+  .Firstmodel351 {
+    clip-path: none;
+  }
+  .firstevermodel {
+    padding-top: 10px;
+    text-align: center;
+  }
+  .firstevermodel2 {
+    padding-top: 10px;
+    text-align: center;
+  }
+}

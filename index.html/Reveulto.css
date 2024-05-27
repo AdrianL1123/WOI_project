@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.backtopage {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+}
+.backtopagebutton {
+  transition: 1.4s;
+}
+.backtopagebutton:hover {
+  border-bottom: 2px solid black;
+}
+.revuelto {
+  clip-path: polygon(100% 0, 100% 52%, 100% 100%, 0 100%, 61% 0);
+}
+.revuelto2 {
+  clip-path: polygon(100% 0, 100% 52%, 87% 100%, 0 100%, 30% 0);
+}
+
+@media (max-width: 768px) {
+  .revuelto {
+    display: none;
+  }
+  .revuelto2 {
+    clip-path: none;
+  }
+  .colpic {
+    flex-direction: column-reverse;
+  }
+  .backtopage {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+  }
+}
+@media (max-width: 992px) {
+  .colpic {
+    flex-direction: column-reverse;
+  }
+  .revuelto {
+    display: none;
+  }
+  .revuelto2 {
+    padding-top: 0px;
+    clip-path: none;
+  }
+  .backtopage {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+  }
+  .responsiveeffects {
+    display: none;
+  }
+}

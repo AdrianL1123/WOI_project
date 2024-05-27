@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.huracanpics {
+  clip-path: polygon(37% 0, 74% 57%, 100% 100%, 0 100%, 0 0);
+}
+.huracanpics2 {
+  clip-path: polygon(0 0, 69% 0, 82% 53%, 94% 100%, 16% 100%, 0% 50%);
+}
+.backtopage {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+}
+.backtopagebutton {
+  transition: 1.4s;
+}
+.backtopagebutton:hover {
+  border-bottom: 2px solid black;
+}
+@media (max-width: 768px) {
+  .huracanpics {
+    display: none;
+  }
+  .huracanpics2 {
+    clip-path: none;
+  }
+  .backtopage {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+  }
+}
+@media (max-width: 992px) {
+  .huracanpics {
+    display: none;
+  }
+  .huracanpics2 {
+    clip-path: none;
+  }
+  .backtopage {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+  }
+  .responsive {
+    display: none;
+  }
+  .backtopageresponsive {
+    display: none;
+  }
+}
